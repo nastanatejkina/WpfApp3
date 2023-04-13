@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp3.Физика"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="Физика" Height="450" Width="800">
+    <Grid Background="#FFB6C0F9">
+        <TextBox x:Name="Quest" HorizontalAlignment="Center" Margin="0,59,0,0" Text="Вопрос" VerticalAlignment="Top" Width="544" Height="130" Background="#FF6999F7" FontFamily="Algerian" FontSize="24" TextWrapping = "Wrap">
+            <TextBox.Foreground>
+                <SolidColorBrush Color="#FF1C249A"/>
+            </TextBox.Foreground>
+        </TextBox>
+        <Button  x:Name="Button" Content="ОТВЕТИТЬ" HorizontalAlignment="Center" Margin="0,303,0,0" VerticalAlignment="Top" Height="66" Width="450" Click="Buttonq_Click" Background="#FF0E1D71" FontFamily="Algerian" FontSize="48">
+            <Button.Foreground>
+                <SolidColorBrush Color="#FF8C9CDE"/>
+            </Button.Foreground>
+        </Button>
+        <TextBox x:Name="Answers" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Ваш ответ" VerticalAlignment="Top" Width="544" Height="43" Background="#FF6999F7" TextAlignment="Center" Margin="0,217,0,0" FontFamily="Algerian" FontSize="36">
+            <TextBox.Foreground>
+                <SolidColorBrush Color="#FF1C249A"/>
+            </TextBox.Foreground>
+        </TextBox>
+    </Grid>
+</Window>
